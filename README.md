@@ -4,3 +4,16 @@
 
 ## *Day 1*
 This is a simple code that asks user to provide informations such as their favorite color and name of their pet to suggest a band name. this code uses simple functions such as print and input, and requires some variable manipulations.
+
+## *Day 2*
+Imagine you are out with your friend and you want to split your resturant bill between yourselves. How do you calculate every person's share??
+
+This simple code takes bill total, your desired tip percentage and number of people to calculate how much each person should pay for their share. 
+Problem solved! next time you want to split your bill, try using this code.
+
+## *Day 3*
+Have you ever read one the "choose your adventure" books?
+
+Today's code is a simple version of a treasure hunt adventure game. You are asked multiple questions throughout the game, and your answers determine your next steps.
+
+Try to find the treasure!!!
