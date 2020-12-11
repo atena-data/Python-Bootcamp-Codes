@@ -12,8 +12,11 @@ This simple code takes bill total, your desired tip percentage and number of peo
 Problem solved! next time you want to split your bill, try using this code.
 
 ## *Day 3*
-Have you ever read one the "choose your adventure" books?
+Have you ever read one of the "choose your adventure" books?
 
 Today's code is a simple version of a treasure hunt adventure game. You are asked multiple questions throughout the game, and your answers determine your next steps.
 
 Try to find the treasure!!!
+
+## *Day 4*
+This is a code to play the clasic "Rock, Paper, Scissors" game. you are asked to enter your choice and it is compared to a random computer generated choice to find the winner. Check out the [The World Rock Paper Scissors Association](https://www.wrpsa.com/) to learn more about this game.
