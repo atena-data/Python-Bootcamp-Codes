@@ -21,7 +21,7 @@ Try to find the treasure!!!
 ## *Day 4*
 This is a code to play the clasic "Rock, Paper, Scissors" game. you are asked to enter your choice and it is compared to a random computer generated choice to find the winner. Check out the [The World Rock Paper Scissors Association](https://www.wrpsa.com/) to learn more about this game.
 
-## *Day*
+## *Day 5*
 Do you have problem finding a secure password for your online accounts?
 
 Has any of your accounts been hacked before?
