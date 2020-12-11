@@ -27,7 +27,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
-print ("Welcome to Rock, Paper Scissors!\nLets Play!\n")
+print ("Welcome to Rock, Paper, Scissors!\nLets Play!\n")
 
 #Ask user for their choice
 user_choice = int (input ("What do you choose? Type 0 for Rock, 1 for Paper and 2 for Scissors.\n"))
