@@ -24,6 +24,6 @@ This is a code to play the clasic "Rock, Paper, Scissors" game. you are asked to
 ## *Day 5*
 Do you have problem finding a secure password for your online accounts?
 
-Has any of your accounts been hacked before?
+Have any of your accounts been hacked before?
 
 If your answer to any of these questions is "yes", today's code is for you. This program generates a combination of letters and numbers to generate a random password that cannot be guessed by anyone. Next time you want to choose a new password, try this code!
