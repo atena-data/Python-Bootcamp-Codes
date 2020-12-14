@@ -27,3 +27,8 @@ Do you have problem finding a secure password for your online accounts?
 Have any of your accounts been hacked before?
 
 If your answer to any of these questions is "yes", today's code is for you. This program generates a combination of letters and numbers to generate a random password that cannot be guessed by anyone. Next time you want to choose a new password, try this code!
+
+## *Day 6*
+Today's code is to solve a maze in [Reeborg's World](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json). The known functions to this robot are move(), turn_left(), right_is_clear(), front_is_clear() and wall_in_front(). The challenge here is that the robot maybe placed at any position inside the maze and it is contantly turning around. The code had to address cases were robot is located at the corner of the maze and the location may result in infinite loops. With the help of a couple functions and loops, this problem is solved easily. 
+
+Head over to the [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) and try out this code.
