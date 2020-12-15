@@ -32,3 +32,11 @@ If your answer to any of these questions is "yes", today's code is for you. This
 Today's code is to solve a maze in [Reeborg's World](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json). The known functions to this robot are move(), turn_left(), right_is_clear(), front_is_clear() and wall_in_front(). The challenge here is that the robot maybe placed at any position inside the maze and it is contantly turning around. The code has to address cases were robot is located at the corner of the maze where the location may result in an infinite loop. With the help of a couple of functions and loops, this problem is solved easily. 
 
 Head over to the [maze](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) and try out this code.
+
+## *Day 7*
+Today's code replicates the [Hangman Game](https://en.wikipedia.org/wiki/Hangman_(game)). The word to guess is represented by a row of dashes, representing each letter of the word, then player has to guess the letters whithin that word. If the suggested letter does not occur in the word, the other player draws one element of a hanged man stick figure as a tally mark.
+
+## *Day 8*
+Today's code is to build a cipher program called "Caesar Cipher". This is an ancient type of encryption that encodes and decodes messages provided by the user.
+
+Try it out and send encoded messages to your friends...
