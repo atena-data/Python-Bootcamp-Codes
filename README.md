@@ -40,3 +40,20 @@ Today's code replicates the [Hangman Game](https://en.wikipedia.org/wiki/Hangman
 Today's code is to build a cipher program called "Caesar Cipher". This is an ancient type of encryption that encodes and decodes messages provided by the user.
 
 Try it out and send encoded messages to your friends...
+
+## *Day 9*
+Today's code is to design a silent auction! Silent auctions are often used by organizations and charities as a way to raise money for a specific cause. When most of us think of an auction, we think of a room full of people, yelling out bids on auction items being presented. A silent auction is more orderly than that.
+
+Using this code all bidders cand place their bid privately. After everyone has placed their bid, the winner's name and their bid value is revealed.
+
+## *Day 10*
+Today I've built a simple calculator in python. using this calculator, you can perform summation, subtraction, multipication and division.
+
+Hope you can make use of this calculator!
+
+## *Day 11*
+Do you like playing cards?
+
+Have you played BlackJack before?
+
+Today's code replicates the game of BlackJack. It's super fun if you haven't played before read the rules [here](https://en.wikipedia.org/wiki/Blackjack) and keep playing.
