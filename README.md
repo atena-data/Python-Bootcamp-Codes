@@ -56,4 +56,4 @@ Do you like playing cards?
 
 Have you played BlackJack before?
 
-Today's code replicates the game of BlackJack. It's super fun if you haven't played before read the rules [here](https://en.wikipedia.org/wiki/Blackjack) and keep playing.
+Today's code replicates the game of BlackJack. It's super fun, if you haven't played before read the rules [here](https://en.wikipedia.org/wiki/Blackjack) and keep playing.
