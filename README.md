@@ -57,3 +57,8 @@ Do you like playing cards?
 Have you played BlackJack before?
 
 Today's code replicates the game of BlackJack. It's super fun, if you haven't played before read the rules [here](https://en.wikipedia.org/wiki/Blackjack) and keep playing.
+
+## *Day 12*
+Are you bored at home??
+
+Try playing the "Guess a Number" game and challenge yourself. You will be asked to guess a number between 1 and 100. Depending on the dificulty level you choose, you have either 5 or 10 attempts to guess that number correctly. It's super fun. Try it now...
