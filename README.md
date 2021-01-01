@@ -91,7 +91,7 @@ Today I am going to generate a spot painting like one of his...🖌🖌🖌
 
 ## *Day 19*
 "Turtle Race"
-Today I have a super fun game for you! There are 5 turtles with different colors racing. You are prompt to bet on one of them before the race strats. Then every turtle runs at a random pace and the one reaching the other side of the screen first would be declared as the winner.
+Today I have a super fun game for you! I have built a turtle race, where we have multiple turtles to run along a line and then we see who actually reaches the finish line first. You get to bet on one of the turtles before the race starts!
 
 Did your turtle win??? 🐢🐢🐢
 
