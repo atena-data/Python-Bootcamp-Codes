@@ -62,3 +62,29 @@ Today's code replicates the game of BlackJack. It's super fun, if you haven't pl
 Are you bored at home??
 
 Try playing the "Guess a Number" game and challenge yourself. You will be asked to guess a number between 1 and 100. Depending on the dificulty level you choose, you have either 5 or 10 attempts to guess that number correctly. It's super fun. Try it now...
+
+## *Day 13*
+Today was a code break!😌
+
+## *Day 14* 
+"Higher or Lower"
+In today's game you are prompted with two celebrity names and you need to guess which one has more instagram followers!
+This is really fun game.
+
+## *Day 15*
+"Coffe Maker"
+Do you like coffee? Today I created a fancy coffee machine that that asks the user for their favorite type of coffee, processes the money and brews a fresh coffee ☕☕☕
+
+## *Day 16*
+"OOP Coffee Maker"
+Today's code challenge is to create the same coffee mahine as yesterday but this time using Object Oriented Programming.
+
+## *Day 17*
+"Quiz Game"
+You can play this game if you like trivia games. You will be asked a set of questions and your score is tracked during the game...
+
+## *Day 18*
+"Spot Painting"
+Damien Hirst is is an English artist, entrepreneur, and art collector. One of his most famous art collections sold for over a million pounds are what is known as pot painting!
+
+Today I am going to generate a spot painting like one of his...🖌🖌🖌
