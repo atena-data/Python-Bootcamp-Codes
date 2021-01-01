@@ -84,4 +84,7 @@ Today's code challenge is to create the same coffee mahine as yesterday but this
 You can play this game if you like trivia games. You will be asked a set of questions and your score is tracked during the game...
 
 ## *Day 18*
+"Spot Painting"
+Damien Hirst is is an English artist, entrepreneur, and art collector. One of his most famous art collections sold for over a million pounds are what is known as pot painting!
 
+Today I am going to generate a spot painting like one of his...🖌🖌🖌
