@@ -88,3 +88,10 @@ You can play this game if you like trivia games. You will be asked a set of ques
 Damien Hirst is is an English artist, entrepreneur, and art collector. One of his most famous art collections sold for over a million pounds are what is known as pot painting!
 
 Today I am going to generate a spot painting like one of his...🖌🖌🖌
+
+## *Day 19*
+"Turtle Race"
+Today I have a super fun game for you! There are 5 turtles with different colors racing. You are prompt to bet on one of them before the race strats. Then every turtle runs at a random pace and the one reaching the other side of the screen first would be declared as the winner.
+
+Did your turtle win??? 🐢🐢🐢
+
