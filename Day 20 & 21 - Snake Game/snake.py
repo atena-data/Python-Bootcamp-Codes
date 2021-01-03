@@ -15,11 +15,7 @@ class Snake:
     def set_snake(self):
         # set snake at the starting position
         for position in STARTING_POSITION:
-            new_segment = Turtle("square")
-            new_segment.color("white")
-            new_segment.penup()
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+            self.add_segment(position)
 
     def move(self):
         # move snake while game is on
@@ -28,6 +24,16 @@ class Snake:
             new_y = self.segments[seg_pos - 1].ycor()
             self.segments[seg_pos].goto(x=new_x, y=new_y)
         self.head.forward(MOVE_DISTANCE)
+
+    def add_segment(self, position):
+        new_segment = Turtle("square")
+        new_segment.color("white")
+        new_segment.penup()
+        new_segment.goto(position)
+        self.segments.append(new_segment)
+
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
 
     def up(self):
         if self.head.heading() != 270:
