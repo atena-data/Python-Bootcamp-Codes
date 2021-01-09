@@ -15,7 +15,6 @@ state_list = data.state.to_list()
 
 score = 0
 guessed_states = []
-missing_states = []
 
 while score < 51:
     answer = screen.textinput(title=f"{score}/50 states correct", prompt="What's the next state's name?").title()
@@ -38,9 +37,8 @@ while score < 51:
 
 # check the states that user couldn't guess
 if len(guessed_states) < len(state_list):
-    for state in state_list:
-        if state not in guessed_states:
-            missing_states.append(state)
+    missing_states = [state for state in state_list if state not in guessed_states]
+
 
 states_to_learn = pd.DataFrame(missing_states)
 states_to_learn.to_csv("States_to_Learn.csv")
