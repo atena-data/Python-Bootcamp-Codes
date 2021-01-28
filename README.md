@@ -142,3 +142,36 @@ Today was a code break!😌
 I've created a flashcard GUI that would help you to learn French. If you've been thinking of learning a new language, you can take advantage of this code.
 
 ## [*Day 32 - Birthday Wisher*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2032%20-%20Birthday%20Wisher/main.py)
+Today's python code helps you to send automatic emails to your loved ones on their birthday. You would need to make a list of all your family and friend with their name and birthdate, the program compares today's date against the list and if a match is identified an email would be sent on your behalf.
+
+If you wish to have this code run automatically every day, you can use [the python anywhere cloud service](https://www.pythonanywhere.com/).
+
+## [*Day 33 - ISS Overhead*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2033%20-%20ISS%20Overhead/main.py)
+How much do you know about the space??
+
+Today we are going to build a code that tracks the International Space Station (ISS) through their API and compares its location with yours. If the ISS is close to your home and it's already dark, you'd receive an automatic email notification to look at the sky and see it!!🛰🛰🛰🛰
+
+## [*Day 34 - Quizzler App*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2034%20-%20Quizzler%20App/main.py)
+We have a trivia game again! 
+
+This one however is a bit fancier. I've used a GUI and API from [the open trivia database](https://opentdb.com/) to bring up random questions.
+
+## [*Day 35 - Rain Notification*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2035%20-%20Rain%20Notification/main.py)
+Today's challenge is to write a Python code that is going to send us a text message in the morning, just before we head out, telling us to bring an umbrella if it's going to rain in the day. I've used twilio and openweather's API to build this code.
+
+## [*Day 36 - Stock News Alert*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2036%20-%20Stock%20News%20Alert/main.py)
+Alot of you might be following stock market on regular basis. If you do, today's code might be very helpfull for you.
+
+The code will check the price for your stock of interest between yesterday and today and if there's more than 5% change in the price it will search the news for any relevant information that could explain the change. Then it'll send you an automatic text message with the news headline and price change!
+
+## [*Day 37 - Habit Tracker*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2037%20-%20Habit%20Tracker/main.py)
+Today I've built a habit tracker where you could go to it every day. I've used Pixela API to make this happen.
+
+## [*Day 38 - Workout Tracking Using Google Sheet*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2038%20-%20Workout%20Tracking%20Using%20Google%20Sheet/main.py)
+Today I've built an exercise tracking application using Python and Google Sheet. This aplication will track teh type of your workout, duration and the amount of calories you've burnt by doing that exercise.
+
+## [*Day 39 & 40 - Best Flight Deals - Capstone Project*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%2039%20%26%2040%20-%20Best%20Flight%20Deals/main.py)
+I've used a combination of different APIs to build an application that finds cheapest flights for you. You'll need to make a list of your desired destination and the code will run to search for any ticket cheaper than your limit price from your location.
+
+It's time to find some good deals ✈✈✈....
+
