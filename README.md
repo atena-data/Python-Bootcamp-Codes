@@ -1,5 +1,5 @@
 # Python-Bootcamp-Codes
- I have strated a 100 day code challenge and will post a new code everyday for the next 100 days. 
+ I have strated a 100 day code challenge instructed by Dr. Angela Yu and I will post a new code everyday for the next 100 days. 
 **STAY TUNED...**
 
 ## [*Day 1 - Band Name Generator*](https://github.com/atena-data/Python-Bootcamp-Codes/blob/main/Day%201%20-%20Band%20Name%20Generator/main.py)
