@@ -1,5 +1,3 @@
-from pprint import pprint
-
 import requests
 from flight_data import FlightData
 
@@ -9,18 +7,24 @@ TEQUILA_API_KEY = "zdv4WPu3pQZ0j7I5K2M-Gxo9YON29-ly"
 
 class FlightSearch:
 
+    def __init__(self):
+        self.city_codes = []
+
     # get IATA codes for the destination cities
     def get_destination_code(self, city_name):
+        print("get destination codes triggered")
         location_endpoint = f"{TEQUILA_ENDPOINT}/locations/query"
         headers = {"apikey": TEQUILA_API_KEY}
         query = {"term": city_name, "location_types": "city"}
         response = requests.get(url=location_endpoint, headers=headers, params=query)
         results = response.json()["locations"]
         code = results[0]["code"]
-        return code
+        self.city_codes.append(code)
+        return self.city_codes
 
     # check flights going from your city to the destination cities between tomorrow and next 6 months.
     def check_flights(self, origin_city_code, destination_city_code, from_time, to_time):
+        print(f"Check flights triggered for {destination_city_code}")
         headers = {"apikey": TEQUILA_API_KEY}
         query = {
             "fly_from": origin_city_code,
@@ -40,17 +44,20 @@ class FlightSearch:
             params=query,
         )
 
-        data = response.json()["data"][0]
-        # pprint(data)
-
-        flight_data = FlightData(
-            price=data["price"],
-            origin_city=data["route"][0]["cityFrom"],
-            origin_airport=data["route"][0]["flyFrom"],
-            destination_city=data["route"][0]["cityTo"],
-            destination_airport=data["route"][0]["flyTo"],
-            out_date=data["route"][0]["local_departure"].split("T")[0],
-            return_date=data["route"][1]["local_departure"].split("T")[0]
-        )
-        print(f"{flight_data.destination_city}: ${flight_data.price}")
-        return flight_data
+        try:
+            data = response.json()["data"][0]
+            print(f"{destination_city_code} {data['price']}")
+        except IndexError:
+            print(f"No flights found for {destination_city_code}.")
+            return None
+        else:
+            flight_data = FlightData(
+                price=data["price"],
+                origin_city=data["route"][0]["cityFrom"],
+                origin_airport=data["route"][0]["flyFrom"],
+                destination_city=data["route"][0]["cityTo"],
+                destination_airport=data["route"][0]["flyTo"],
+                out_date=data["route"][0]["local_departure"].split("T")[0],
+                return_date=data["route"][1]["local_departure"].split("T")[0]
+            )
+            return flight_data
