@@ -1,0 +1,25 @@
+    body {
+    background-color: #F0F5F9;
+    }
+    hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: grey;
+        border-width: 10px;
+        width: 10%;
+    }
+    h1 {
+    color: #00ad7c;
+    text-shadow: 2px 2px 66BFBF;
+    }
+    h3 {
+    color: #00ad7e;
+    text-transform: uppercase;
+    }
+    h4 {
+    color: #00bd8e;
+    }
+    h5 {
+    color: #00bd8e;
+    text-transform: uppercase;
+    }
